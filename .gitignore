@@ -1,0 +1,44 @@
+# --- ESPHome ---
+.esphome/
+*.bin
+*.elf
+*.map
+secrets.yaml
+
+# --- KiCad ---
+# Backup and autosave files
+*-backups/
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.kicad_sym-bak
+_autosave-*
+*.tmp
+*.dcm
+*.lib~
+
+# KiCad cache and temp
+fp-info-cache
+sym-lib-table-cache
+.cache/
+
+# Gerbers / fabrication outputs (optional)
+# Uncomment if you want to exclude generated files
+# gerbers/
+# fabrication/
+
+# --- OS junk ---
+.DS_Store
+Thumbs.db
+
+# --- Python ---
+__pycache__/
+*.pyc
+.venv/
+
+# --- VS Code ---
+.vscode/
+
+# --- Logs ---
+*.log
