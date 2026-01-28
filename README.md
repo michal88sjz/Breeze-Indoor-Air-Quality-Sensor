@@ -9,7 +9,7 @@ Breeze is a simple, modular DIY indoor air quality sensor designed for learning,
 ## ✨ Features
 
 * Temperature, humidity and pressure measurement (BME280)
-* Particulate matter measurement PM1.0 / PM2.5 / PM10 (PMS5005)
+* Particulate matter measurement PM1.0 / PM2.5 / PM10 (PMS5003)
 * Native Home Assistant integration via ESPHome API
 * Over-the-air firmware updates (OTA)
 * Ability to control PMS sensor (sleep/reset)
@@ -23,7 +23,7 @@ Breeze is a simple, modular DIY indoor air quality sensor designed for learning,
 | -------------------- | ------------------------------------- |
 | MCU                  | Wemos D1 mini / D1 mini Pro (ESP8266) |
 | Environmental sensor | BME280 (I²C)                          |
-| Particulate sensor   | PMS5005 (UART)                        |
+| Particulate sensor   | PMS5003 (UART)                        |
 | Power supply         | USB 5V                                |
 
 ### Connections (target pinout for custom PCB)
@@ -39,9 +39,9 @@ Breeze is a simple, modular DIY indoor air quality sensor designed for learning,
 | CSB    | 3V3     | –                |
 | SDO    | GND     | – (address 0x76) |
 
-#### PMS5005 (UART + control)
+#### PMS5003 (UART + control)
 
-| PMS5005 | D1 mini              | GPIO   |
+| PMS5003 | D1 mini              | GPIO   |
 | ------- | -------------------- | ------ |
 | VCC     | 5V                   | –      |
 | GND     | GND                  | –      |
@@ -57,12 +57,12 @@ Breeze is a simple, modular DIY indoor air quality sensor designed for learning,
 ## 🔌 Power Supply
 
 * D1 mini powered via USB
-* PMS5005 powered from 5V pin
+* PMS5003 powered from 5V pin
 * BME280 powered from 3.3V pin
 
 Recommended:
 
-* 470–1000 µF capacitor near PMS5005 power input
+* 470–1000 µF capacitor near PMS5003 power input
 * 100 nF decoupling capacitors near BME280
 
 ---
