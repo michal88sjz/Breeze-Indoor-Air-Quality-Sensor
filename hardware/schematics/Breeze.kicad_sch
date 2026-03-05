@@ -4,6 +4,11 @@
 	(generator_version "9.0")
 	(uuid "f1965451-c1dc-41a0-abe4-45483b23ddd7")
 	(paper "A4")
+	(title_block
+		(title "Breeze Indoor Air Quality Monitor – Schematic")
+		(date "2026-03-05")
+		(rev "00alpha")
+	)
 	(lib_symbols
 		(symbol "Device:C"
 			(pin_numbers
@@ -1426,12 +1431,6 @@
 		(uuid "1865e35c-6749-4988-8279-4dd6e144c03b")
 	)
 	(junction
-		(at 121.92 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "19dfe849-a050-46b0-8b2e-3112161a98bf")
-	)
-	(junction
 		(at 143.51 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1448,12 +1447,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5910607b-a999-44b1-b576-f32595c3fee1")
-	)
-	(junction
-		(at 121.92 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9431e251-e7ac-4294-83e0-ed3654090f2d")
 	)
 	(junction
 		(at 158.75 120.65)
@@ -1509,6 +1502,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 125.73) (xy 167.64 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14b5f61a-4bc0-4361-a277-cba4bc509a12")
+	)
+	(wire
+		(pts
 			(xy 158.75 88.9) (xy 115.57 88.9)
 		)
 		(stroke
@@ -1526,6 +1529,16 @@
 			(type default)
 		)
 		(uuid "2b559e51-e8a7-42e8-950f-017d41686e07")
+	)
+	(wire
+		(pts
+			(xy 165.1 128.27) (xy 165.1 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bb4b5f1-d18f-4553-a74d-e1d5f15efa80")
 	)
 	(wire
 		(pts
@@ -1549,16 +1562,6 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 101.6) (xy 115.57 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34fe386a-81a3-42ea-9412-50549e30d029")
-	)
-	(wire
-		(pts
 			(xy 201.93 67.31) (xy 177.8 67.31)
 		)
 		(stroke
@@ -1569,13 +1572,13 @@
 	)
 	(wire
 		(pts
-			(xy 127 130.81) (xy 127 83.82)
+			(xy 165.1 101.6) (xy 115.57 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3ce708e0-74a9-4bed-af44-94c6382254ec")
+		(uuid "495cce8b-6e3f-47db-beb6-29adf4ac3b5c")
 	)
 	(wire
 		(pts
@@ -1586,26 +1589,6 @@
 			(type default)
 		)
 		(uuid "4e910a8c-01a8-420a-b758-c09847ce48f4")
-	)
-	(wire
-		(pts
-			(xy 167.64 125.73) (xy 167.64 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "524b8219-480f-4bde-83d1-7d1133e59da9")
-	)
-	(wire
-		(pts
-			(xy 121.92 67.31) (xy 121.92 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "54e91ba6-a9a8-4885-a622-47d258f8473c")
 	)
 	(wire
 		(pts
@@ -1649,16 +1632,6 @@
 	)
 	(wire
 		(pts
-			(xy 127 83.82) (xy 121.92 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d78beb7-36ea-4099-ace5-7e74af69ca05")
-	)
-	(wire
-		(pts
 			(xy 158.75 120.65) (xy 133.35 120.65)
 		)
 		(stroke
@@ -1686,6 +1659,16 @@
 			(type default)
 		)
 		(uuid "78b0665b-d42d-4186-8483-ebc60cf33c17")
+	)
+	(wire
+		(pts
+			(xy 127 99.06) (xy 115.57 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "812d9018-f3ca-4206-b470-049cc0d710bd")
 	)
 	(wire
 		(pts
@@ -1719,13 +1702,23 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 67.31) (xy 138.43 67.31)
+			(xy 107.95 67.31) (xy 138.43 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8b5177a1-daaf-41cf-a930-594492ef3fdb")
+	)
+	(wire
+		(pts
+			(xy 127 130.81) (xy 127 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bb80280-c3df-48ca-a77f-b94dcae48e11")
 	)
 	(wire
 		(pts
@@ -1799,16 +1792,6 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 128.27) (xy 165.1 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc884b07-c66a-44b9-b63f-afc03714aee3")
-	)
-	(wire
-		(pts
 			(xy 172.72 123.19) (xy 170.18 123.19)
 		)
 		(stroke
@@ -1826,16 +1809,6 @@
 			(type default)
 		)
 		(uuid "ca256b9f-bb8b-4af7-a18f-2ff310908a38")
-	)
-	(wire
-		(pts
-			(xy 107.95 67.31) (xy 121.92 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ccd30687-c16e-4fe2-8113-725e5121ab40")
 	)
 	(wire
 		(pts
@@ -1869,16 +1842,6 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 83.82) (xy 115.57 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da4e8da1-a657-40ef-9704-973aeb54bee0")
-	)
-	(wire
-		(pts
 			(xy 115.57 86.36) (xy 161.29 86.36)
 		)
 		(stroke
@@ -1889,6 +1852,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 104.14) (xy 115.57 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1036fc0-eb3a-440a-be5b-d0348e103d05")
+	)
+	(wire
+		(pts
 			(xy 129.54 118.11) (xy 143.51 118.11)
 		)
 		(stroke
@@ -1896,16 +1869,6 @@
 			(type default)
 		)
 		(uuid "e3aac085-eca7-4bf2-b9f0-d734370b3916")
-	)
-	(wire
-		(pts
-			(xy 121.92 78.74) (xy 121.92 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e555ac71-23ad-4cd5-8510-d4137e669137")
 	)
 	(wire
 		(pts
@@ -1926,16 +1889,6 @@
 			(type default)
 		)
 		(uuid "f2084b08-a8a3-4e85-bea8-8ab8db2ed820")
-	)
-	(wire
-		(pts
-			(xy 165.1 99.06) (xy 115.57 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f47bcb83-3ea1-4683-bfdc-306c066396f7")
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -2138,76 +2091,6 @@
 			(project ""
 				(path "/f1965451-c1dc-41a0-abe4-45483b23ddd7"
 					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 121.92 74.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2cf548be-6a1f-4a5c-9bc1-ffb5744c2699")
-		(property "Reference" "R2"
-			(at 124.46 73.6599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 124.46 76.1999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 120.142 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 121.92 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 121.92 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6750702e-3b00-4b4b-a9fd-5bdf7b0e75da")
-		)
-		(pin "2"
-			(uuid "cc92637b-298d-4cb0-9309-748b8d917b86")
-		)
-		(instances
-			(project "Breeze"
-				(path "/f1965451-c1dc-41a0-abe4-45483b23ddd7"
-					(reference "R2")
 					(unit 1)
 				)
 			)
